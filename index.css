@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+     
+}
+
+.container {
+    display: flex;
+    justify-content :center;
+    align-items: center;
+    border: 2px solid red;
+
+}
+
+.innerContainer{
+    border: 2px solid blue;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction:column;
+    row-gap: 10px;
+    
+}
+
+.teams{
+    color: #EEEEEE;
+    text-align: center;
+    margin: 0px;
+}
+.score{
+    background-color: #080001;
+    border: 2px solid yellow;
+    height: 100px;
+    color: #F94F6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    margin: 0px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    
+   
+}

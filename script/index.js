@@ -47,5 +47,14 @@ guestBtnThree.addEventListener("click",function(){
     guestScoreEl.textContent =guestScore;
 })
 
+// Reset button-----------------------------------------------
+let resetBtn = document.getElementById("reset-btn");
+resetBtn.addEventListener("click",function(){
+    homeScore = 0;
+    guestScore = 0;
+    homeScoreEl.textContent =homeScore;
+    guestScoreEl.textContent =guestScore;
+})
+
 
 

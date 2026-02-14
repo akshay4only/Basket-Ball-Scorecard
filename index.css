@@ -8,12 +8,12 @@ body {
     display: flex;
     justify-content :center;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 
 .innerContainer{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin-left: 25px;
     margin-right: 25px;
     display: flex;
@@ -29,7 +29,7 @@ body {
 }
 .score{
     background-color: #080001;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     height: 100px;
     color: #F94F6D;
     display: flex;
@@ -40,4 +40,17 @@ body {
     font-family: 'Cursed Timer ULiL', sans-serif;
     
    
+}
+.count-btn{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+  
+}
+
+.btn-container,.reset-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.reset-container{
+    margin-top: 10px;
 }
